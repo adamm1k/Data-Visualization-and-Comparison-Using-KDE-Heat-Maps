@@ -1,21 +1,23 @@
 Offensive Actions Visualization with KDE Heat Maps
-This project aims to visualize soccer players' offensive actions using Kernel Density Estimation (KDE) heat maps. The project utilizes various Python libraries to gather data, analyze it, and create insightful visualizations. (This code is used for public use and I give you the right to copy and alter if needed)
+This project aims to visualize soccer players' offensive actions using Kernel Density Estimation (KDE) heat maps. The project utilizes various Python libraries to gather data, analyze it, and create 
+insightful visualizations. 
+(This code is used for public use and I give you the right to copy and alter if needed)
 
 Features
-Scrapes soccer player data from websites
-Analyzes and processes data using Pandas
-Creates KDE heat maps to visualize offensive actions
-Enhances visualizations with Seaborn, Matplotlib, and Highlight Text
+- Scrapes soccer player data from websites
+- Analyzes and processes data using Pandas
+- Creates KDE heat maps to visualize offensive actions
+- Enhances visualizations with Seaborn, Matplotlib, and Highlight Text
 Libraries Used
-numpy - For numerical operations and array handling
-requests - For making HTTP requests to fetch data
-json - For handling JSON data
-BeautifulSoup (from bs4) - For web scraping
-pandas - For data manipulation and analysis
-seaborn - For statistical data visualization
-matplotlib.pyplot - For plotting visualizations
-matplotlib.patches.Arc - For drawing soccer field arcs
-highlight_text - For adding text annotations to visualizations
+- numpy - For numerical operations and array handling
+- requests - For making HTTP requests to fetch data
+- json - For handling JSON data
+- BeautifulSoup (from bs4) - For web scraping
+- pandas - For data manipulation and analysis
+- seaborn - For statistical data visualization
+- matplotlib.pyplot - For plotting visualizations
+- matplotlib.patches.Arc - For drawing soccer field arcs
+- highlight_text - For adding text annotations to visualizations
 Installation
 Clone the repository:
 
